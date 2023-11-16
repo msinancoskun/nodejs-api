@@ -1,0 +1,15 @@
+{
+	"folders": [{ "path": "." }],
+	"settings": {
+		"files.exclude": {
+			"**/node_modules": true,
+			"**/build": true,
+			"**/dist": true
+		},
+		"search.exclude": {
+			"**/node_modules": true,
+			"**/build": true,
+			"**/dist": true
+		}
+	}
+}

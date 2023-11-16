@@ -1,0 +1,28 @@
+{
+	"name": "bunq-task",
+	"description": "...",
+	"version": "0.1.0",
+	"type": "module",
+	"author": "Sinan Coşkun <sinancoskun2345@gmail.com>",
+	"license": "MIT",
+	"main": "src/index.js",
+	"scripts": {
+		"tooling": "prettier --check 'src/**/*.js' || prettier --write 'src/**/*.js' && eslint . --ext .js",
+		"test": "vitest --run --coverage",
+		"dev": "nodemon --watch src --ext 'js' --exec 'node src/index'",
+		"start": "node src/index"
+	},
+	"dependencies": {
+		"casual": "^1.6.2",
+		"cookie-parser": "^1.4.6",
+		"express": "^4.18.2",
+		"sqlite3": "^5.1.6"
+	},
+	"devDependencies": {
+		"@vitest/coverage-istanbul": "^0.34.1",
+		"eslint": "^8.53.0",
+		"nodemon": "^3.0.1",
+		"prettier": "^2.8.4",
+		"vitest": "^0.34.1"
+	}
+}
