@@ -1,4 +1,4 @@
-# Bunq assignment (in Node.js)
+# API (in Node.js)
 How to run:
 1. "npm install"
 2. "npm start"
